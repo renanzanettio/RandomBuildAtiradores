@@ -13,14 +13,14 @@ function gerarMitico() {
     var miticos = ["mythic01", "mythic02", "mythic03", "mythic04", "mythic05", "mythic06"];
     var mitico = miticos[Math.floor(Math.random() * miticos.length)];
 
-    document.getElementById("gerarbota").innerHTML = "<img src='imgs/mitico/" + mitico + ".webp' class='icons'>"
+    document.getElementById("gerarmitico").innerHTML = "<img src='imgs/mitico/" + mitico + ".webp' class='icons'>"
 }
 
 function gerarBota() {
     var botas = ["boots01", "boots02", "boots03", "boots04", "boots05", "boots06", "boots07"];
     var bota = botas[Math.floor(Math.random() * botas.length)];
 
-    document.getElementById("gerarmitico").innerHTML = "<img src='imgs/bota/" + bota + ".webp' class='icons'>"
+    document.getElementById("gerarbota").innerHTML = "<img src='imgs/bota/" + bota + ".webp' class='icons'>"
 }
 
 function gerarLendario1() {
