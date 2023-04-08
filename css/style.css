@@ -1,0 +1,72 @@
+body{
+    color: #ffffff;
+    background-color:#222629;
+    min-height: 100%;
+}
+
+.title{
+    margin-top: 50px;
+}
+
+.bg{
+    max-width: 1000px;
+    border-radius: 5px;
+    margin-top: 80px;
+    min-height: 00px;
+    background-color: #00000011;
+}
+
+.div-icons{
+    width: 100px;
+}
+
+.icons{
+    width: 90px;
+    margin-top: 63px;
+    display: block;
+    border: solid 2px #ffffff;
+}
+
+.items{
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.champ-icon{
+    width: 110px;
+    display: block;
+    margin: auto;
+}
+
+
+.btn{
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-inicial{
+    max-width: 650px;
+}
+
+hr{
+    
+    color: #ffffff98;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%; 
+    height: 60px;
+    position: absolute;
+}
+
+.github{
+    font-size: 17px;
+    font-weight: lighter;
+}

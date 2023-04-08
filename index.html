@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" text="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>BuildRandomizer</title>
+</head>
+
+<body onload="conteudoInicial()">
+
+    <div class="container-xl text-center title">
+        <h1>Randomizador de Builds para Atirador - League of Legends</h1>
+    </div>
+
+    <div class="bg container-md">
+        <div id="conteudo"></div>
+        <div class="champ-icon" id="gerarchampion"></div>
+
+        <div style="display: flex; align-items: center;">
+            <div class="row items">
+
+                <div class="div-icons" id="gerarbota"></div>
+
+                <div class="div-icons" id="gerarmitico"></div>
+
+                <div class="div-icons" id="gerarlendario1"></div>
+
+                <div class="div-icons" id="gerarlendario2"></div>
+
+                <div class="div-icons" id="gerarlendario3"></div>
+
+                <div class="div-icons" id="gerarlendario4"></div>
+
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="apagarConteudoInicial(), gerarChampion(), gerarBota(), gerarMitico(), gerarLendario1(), gerarLendario2(), gerarLendario3(), gerarLendario4()">Gerar Build</button><br>
+    </div>
+
+
+    <div class="footer">
+        <hr>
+        <p class="github text-center">Github: Renanzanettio</p>
+    </div>
+
+</body>
+
+</html>
